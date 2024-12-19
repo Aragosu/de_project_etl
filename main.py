@@ -10,9 +10,11 @@ from datetime import datetime
 def cur_dt():
     return dt.datetime.now().strftime("%Y-%m-%d %H:%M:%S")  # + dt.timedelta(hours=3))
 
+USER_NAME = ""
+USER_PASS = ""
 
-conn_dict = {'user': "hseguest",
-             'password': "hsepassword",
+conn_dict = {'user': USER_NAME,
+             'password': USER_PASS,
              'host': "rc1b-o3ezvcgz5072sgar.mdb.yandexcloud.net",
              'port': "6432",
              'database': "db"}
