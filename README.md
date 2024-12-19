@@ -13,15 +13,15 @@
 
 
 #### Содержание репозитория:
-**файлы:**
-main.cron - простая автоматизация с cron
-main.ddl - файл для создания всех объектов в БД
-main.py - сам скрипт ETL-процесса
-sql_scripts.sql - доп.скрипты (для дебага)
-terminals_DDMMYY.xlsx, passport_blacklist_DDMMYY.xlsx, transactions_DDMMYY.txt - входные данные для ETL-процесса
-**папки:**
-archive - папки куда уходят входные данные для ETL-процесса после отработки
-other_days - (для дебага)
+**файлы:**    
+main.cron - простая автоматизация с cron    
+main.ddl - файл для создания всех объектов в БД    
+main.py - сам скрипт ETL-процесса    
+sql_scripts.sql - доп.скрипты (для дебага)    
+terminals_DDMMYY.xlsx, passport_blacklist_DDMMYY.xlsx, transactions_DDMMYY.txt - входные данные для ETL-процесса    
+**папки:**    
+archive - папки куда уходят входные данные для ETL-процесса после отработки    
+other_days - (для дебага)    
 
 
 #### Как протестировать работу ETL (с нуля):
